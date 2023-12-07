@@ -50,7 +50,7 @@ jobs:
     - name: Setup JDK
       uses: actions/setup-java@v2
       with:
-        distribution: 'oracle'
+        distribution: 'microsoft'
         java-version: '17'
     
     # Initializes the CodeQL tools for scanning.
